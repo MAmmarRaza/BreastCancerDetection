@@ -17,19 +17,30 @@ To run the breast cancer classification code, you need to follow these steps:
 
 1. **Clone the Repository**: Start by cloning the repository to your local machine using the following command:
 
-`git clone https://github.com/your-username/breast-cancer-classification.git`
+`git clone https://github.com/MAmmarRaza/breast-cancer-classification.git`
 
 
 2. **Create a Virtual Environment (Optional)**: It is recommended to create a virtual environment to isolate the dependencies for this project. You can use tools like `virtualenv` or `conda` to create a virtual environment. Activate the virtual environment before proceeding to the next step.
 
-3. **Install Dependencies**: Install the required dependencies by running the following command:
+3. **Install Dependencies**: Install the required dependencies given below:
+    Required Libraries
 
-`pip install -r requirements.txt`
+    - numpy
+    - pandas
+    - os
+    - itertools
+    - glob
+    - PIL
+    - cv2
+    - matplotlib
+    - tensorflow
+    - sklearn
+    - keras
 
+4. This command will install all the necessary libraries and packages needed to run the code:
+  `pip install numpy pandas opencv-python matplotlib tensorflow scikit-learn keras`
 
-This command will install all the necessary libraries and packages needed to run the code.
-
-4. **Dataset**: The code assumes the availability of the breast cancer dataset. Place the dataset in the appropriate directory structure as required by the code.
+5. **Dataset**: The code assumes the availability of the breast cancer dataset. Place the dataset in the appropriate directory structure as required by the code. Download link: https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images?resource=download
 
 </div>
 
@@ -74,14 +85,10 @@ To use the breast cancer classification code, follow these steps:
 
 2. Navigate to the project directory containing the code.
 
-3. Open a terminal or command prompt and activate the virtual environment (if created).
+3. Download the dataset https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images?resource=download
 
-4. Run the following command to execute the code:
-
-`python app.py`
-
-
-This command will start the application and provide instructions for interacting with it.
+4. Place the dataset and .ipynb file in the same folder.
+5. Run the code step by step in .ipynb file and at the end model will be stored in md directory.
 
 5. Follow the instructions provided by the application to input the required information, such as image paths or other relevant details.
 
