@@ -19,10 +19,7 @@ To run the breast cancer classification code, you need to follow these steps:
 
 `git clone https://github.com/MAmmarRaza/breast-cancer-classification.git`
 
-
-2. **Create a Virtual Environment (Optional)**: It is recommended to create a virtual environment to isolate the dependencies for this project. You can use tools like `virtualenv` or `conda` to create a virtual environment. Activate the virtual environment before proceeding to the next step.
-
-3. **Install Dependencies**: Install the required dependencies given below:
+2. **Install Dependencies**: Install the required dependencies given below:
     Required Libraries
 
     - numpy
@@ -36,11 +33,10 @@ To run the breast cancer classification code, you need to follow these steps:
     - tensorflow
     - sklearn
     - keras
-
-4. This command will install all the necessary libraries and packages needed to run the code:
+3. This command will install all the necessary libraries and packages needed to run the code:
   `pip install numpy pandas opencv-python matplotlib tensorflow scikit-learn keras`
 
-5. **Dataset**: The code assumes the availability of the breast cancer dataset. Place the dataset in the appropriate directory structure as required by the code. Download link: https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images?resource=download
+4. **Dataset**: The code assumes the availability of the breast cancer dataset. Place the dataset in the appropriate directory structure as required by the code. Download link: https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images?resource=download
 
 </div>
 
